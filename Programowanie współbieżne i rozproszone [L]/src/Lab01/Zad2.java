@@ -9,14 +9,14 @@ public class Zad2 {
         int liczba = scanner.nextInt();
         scanner.close();
 
-        if (czyParzysta(liczba)) {
+        if (czyPierwsza(liczba)) {
             System.out.println(liczba + " jest liczbą pierwszą.");
         } else {
             System.out.println(liczba + " nie jest liczbą pierwszą.");
         }
     }
 
-    public static boolean czyParzysta(int liczba) {
+    public static boolean czyPierwsza(int liczba) {
         if (liczba < 2)
             return false;
         for (int i = 2; i * i <= liczba; i++) {
