@@ -20,8 +20,8 @@ public class Zad4 {
         int maxWartosc = Math.max(max1, Math.max(max2, max3));
 
         System.out.println("Maksymalna wartosc w tablicy 1: " + max1);
-        System.out.println("Maksymalna wartosc w tablicy 1: " + max2);
-        System.out.println("Maksymalna wartosc w tablicy 1: " + max3);
+        System.out.println("Maksymalna wartosc w tablicy 2: " + max2);
+        System.out.println("Maksymalna wartosc w tablicy 3: " + max3);
         System.out.println("Maksymalna wartosc: " + maxWartosc);
     }
 
